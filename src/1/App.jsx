@@ -9,9 +9,7 @@ import { } from "../mu11da8may_js/src/number";
 
 import './App.css'
 
-import { createStore, combineReducers } from 'redux';  
-import { connect } from 'react-redux';
- 
+
 export default class Example extends Component {
     render(){
         ppp(1);
