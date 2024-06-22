@@ -1,7 +1,7 @@
 
 // an alternative the console.log() working only in the DEBUG mode 
 const DEBUG = true;
-export function ppp(...args) {
+export const ppp = (...args) => {
     if (DEBUG) {
         const handler = {
             get: (target, prop) => {
